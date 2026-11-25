@@ -1,0 +1,32 @@
+{
+  "name": "VORTEX TERMINAL — Trade with precision.",
+  "short_name": "VORTEX",
+  "description": "Institutional-grade Deriv analytics, execution and bot workspace. Demo-first, risk-managed.",
+  "id": "/",
+  "start_url": "/terminal",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07090E",
+  "theme_color": "#07090E",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-mono.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Trading terminal", "url": "/terminal" },
+    { "name": "Signal audit", "url": "/audit" },
+    { "name": "Backtester", "url": "/terminal/backtest" }
+  ]
+}
